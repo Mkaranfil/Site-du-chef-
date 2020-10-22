@@ -1,0 +1,4 @@
+# ici je met les fichiers ignores 
+
+.DS-Store
+/node_modules
