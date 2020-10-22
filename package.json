@@ -1,0 +1,24 @@
+{
+  "name": "site_du_chef_mka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mkaranfil/Site-du-chef-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mkaranfil/Site-du-chef-/issues"
+  },
+  "homepage": "https://github.com/Mkaranfil/Site-du-chef-#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1"
+  }
+}
