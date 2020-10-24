@@ -1,64 +1,7 @@
 
-.navigation{
-    background-color: red;
-    z-index: 1;
-}
 
-.navGauche{
-    background-color: blue;
-   
-    ul{
-        background-color: indigo;
-        li{
-            a{
-                border-bottom: white solid 2px;
-                border-top: white solid 2px;
-                padding: 15px 29px 15px 29px;
 
-                color: white;
-                font-size: 18px;
-                
-            }
-        }
 
-    }
-}
 
-.navLogo{
-    background-color: hotpink;
-}
 
-// Caroussel
-
-.imgCarou {
-    filter: brightness(50%);   
-}
-
-.texteCarou{
-    font-family: "courgette";
-    font-size: 70px;
-    span{
-        font-size: 90px;
-    }
-    span:nth-child(3){
-        color:$red;
-    }       
-}
-
-.btnCarou{
-    button{
-        font-size: 17px;
-    }
-    button:first-child{
-        background-color: white;
-        color: black;
-        
-
-    }
-    button:nth-child(2){
-        background-color: $red;
-        color: white;
-    }
-
-}
 
