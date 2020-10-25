@@ -15847,14 +15847,13 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .bottomDeco {
-  background-image: url("../public/img/bottom_decoration_img.png");
-  background-size: cover;
-  background-color: red;
-  height: 200px;
+  background-image: url("../../public/img/bottom_decoration_img.png");
+  background-color: #2f2e2f;
+  height: 12px;
   width: 100%;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1023px) {
+@media screen and (min-width: 600px) and (max-width: 1024px) {
   header .navComplet {
     display: flex;
     flex-direction: column;
@@ -15887,6 +15886,46 @@ a.text-dark:hover, a.text-dark:focus {
   }
   header #carouselExampleCaptions .texteCarou {
     font-size: 20px;
+  }
+  header #carouselExampleCaptions .texteCarou span {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 599px) {
+  header .navComplet {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+  }
+  header .navComplet .navbar-nav {
+    background-color: #c5354167;
+    font-size: 8px;
+  }
+  header .navComplet .enfin {
+    width: 100%;
+    height: 0px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  header .navComplet .enfin .logotest {
+    top: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 200px;
+    width: 62%;
+  }
+  header .navComplet .enfin .logotest .divLogo .navLogo {
+    height: 70px;
+    width: 55px;
+  }
+  header #carouselExampleCaptions {
+    z-index: 1;
+  }
+  header #carouselExampleCaptions .texteCarou {
+    font-size: 5px;
   }
   header #carouselExampleCaptions .texteCarou span {
     font-size: 22px;
