@@ -1,37 +1,41 @@
 
-.navigation{
-    background-color: red;
-    z-index: 1;
+// navbar
+.navComplet{
+    z-index: 2;
+    position: absolute;
 }
-
-.navGauche{
-    background-color: blue;
-   
-    ul{
-        background-color: indigo;
-        li{
-            a{
-                border-bottom: white solid 2px;
-                border-top: white solid 2px;
-                padding: 15px 29px 15px 29px;
-
-                color: white;
-                font-size: 18px;
-                
-            }
+.navbar-nav{
+    .nav-item{
+        .nav-link{
+            padding: 20px 30px 20px 30px;
+            color: white;
         }
-
     }
 }
 
-.navLogo{
-    background-color: hotpink;
+.nav-link:hover{
+    background-color: $red;
+    color: white;
 }
+
+
+.navLogo{
+    width: 85px;
+    height: 100px;
+}
+
+
 
 // Caroussel
 
+#carouselExampleCaptions{
+    z-index: 1;
+    position: relative;
+
+}
+
 .imgCarou {
-    filter: brightness(50%);   
+    filter: brightness(20%);   
 }
 
 .texteCarou{
@@ -62,3 +66,23 @@
 
 }
 
+// indicateur
+.carousel-indicators{
+    height: 6%;
+     
+}
+ .circle{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+ }
+
+ .bottomDeco{
+     background-image: url('../public/img/bottom_decoration_img.png');
+     background-size: cover;
+     background-color:red;
+     height: 200px;
+     width: 100%;
+
+ }

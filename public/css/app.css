@@ -15780,33 +15780,33 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.navigation {
-  background-color: red;
-  z-index: 1;
+.navComplet {
+  z-index: 2;
+  position: absolute;
 }
 
-.navGauche {
-  background-color: blue;
-}
-
-.navGauche ul {
-  background-color: indigo;
-}
-
-.navGauche ul li a {
-  border-bottom: white solid 2px;
-  border-top: white solid 2px;
-  padding: 15px 29px 15px 29px;
+.navbar-nav .nav-item .nav-link {
+  padding: 20px 30px 20px 30px;
   color: white;
-  font-size: 18px;
+}
+
+.nav-link:hover {
+  background-color: #C53540;
+  color: white;
 }
 
 .navLogo {
-  background-color: hotpink;
+  width: 85px;
+  height: 100px;
+}
+
+#carouselExampleCaptions {
+  z-index: 1;
+  position: relative;
 }
 
 .imgCarou {
-  filter: brightness(50%);
+  filter: brightness(20%);
 }
 
 .texteCarou {
@@ -15834,4 +15834,61 @@ a.text-dark:hover, a.text-dark:focus {
 .btnCarou button:nth-child(2) {
   background-color: #C53540;
   color: white;
+}
+
+.carousel-indicators {
+  height: 6%;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomDeco {
+  background-image: url("../public/img/bottom_decoration_img.png");
+  background-size: cover;
+  background-color: red;
+  height: 200px;
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  header .navComplet {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+  }
+  header .navComplet .navbar-nav {
+    background-color: #c5354167;
+    font-size: 12px;
+  }
+  header .navComplet .enfin {
+    width: 100%;
+    height: 0px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  header .navComplet .enfin .logotest {
+    top: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 200px;
+    width: 56%;
+  }
+  header .navComplet .enfin .logotest .divLogo {
+    padding-bottom: 80px;
+  }
+  header #carouselExampleCaptions {
+    z-index: 1;
+  }
+  header #carouselExampleCaptions .texteCarou {
+    font-size: 20px;
+  }
+  header #carouselExampleCaptions .texteCarou span {
+    font-size: 22px;
+  }
 }
