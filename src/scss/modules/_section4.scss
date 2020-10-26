@@ -1,0 +1,30 @@
+
+#section4{
+    background-image: url('../../public/img/testimonials_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.testi{
+    color: white;
+}
+
+.gauche{
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    list-style: none;
+    color: white;
+    img{
+        border:3px solid whitesmoke;
+        border-radius: 100%;
+    }
+    .card-body{
+        border: 1px solid white;
+        border-radius: 8%;
+        h6{
+            color: $red;
+        }
+    }
+}
