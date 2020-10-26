@@ -279,13 +279,13 @@
                     style="width: 15%; height: 100%;">
 
                     <nav class="nav d-flex flex-column justify-content-center align-items-center">
-                        <a class="nav-link active  border-bottom border-dark border-height" href="#"> <i
+                        <a class="nav-link active  border-bottom  border-height" href="#"> <i
                                 class="fas fa-mug-hot fa-3x pl-3"></i> BreakFast</a>
-                        <a class="nav-link border-bottom border-dark" href="#"><i
+                        <a class="nav-link border-bottom " href="#"><i
                                 class="fas fa-hamburger fa-3x "></i>Lunch</a>
-                        <a class="nav-link border-bottom border-dark" href="#"> <i
+                        <a class="nav-link border-bottom " href="#"> <i
                                 class="fas fa-utensils fa-3x "></i>Snacks</a>
-                        <a class="nav-link border-bottom border-dark" href="#"><i
+                        <a class="nav-link border-bottom " href="#"><i
                                 class="fas fa-mug-hot fa-3x"></i>Dinner</a>
 
                     </nav>
@@ -935,7 +935,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <h6>Manager </h6>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This content is a little bit longer.</p>
 
                         </div>
@@ -1013,7 +1013,7 @@
 
     <footer class="d-flex justify-content-center align-items-center flex-row" style="width: 100%; height: 300px;">
 
-        <div class="about d-flex justify-content-start align-items-start flex-column text-light ml-3">
+        <div class="col-4 about bg-dark d-flex justify-content-start align-items-start flex-column text-light " style=" height: 280px;">
             <h3>ABOUT US</h3>
 
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis tenetur eius nemo nisi, omnis
@@ -1035,17 +1035,20 @@
 
 
 
-        <div class="insta text-light pr-5" style="width: 30%;">
+        <div class=" col-4 insta text-light bg-danger " style=" height: 280px;">
             <h3>INSTAGRAM</h3>
-            <div class="d-inline-block">
-                <img src="./public/img/instragram_gallery_img1.jpg" alt="">
-                <img src="./public/img/instragram_gallery_img2.jpg" alt="">
-                <img src="./public/img/instragram_gallery_img1.jpg" alt="">
-                <img src="./public/img/instragram_gallery_img2.jpg" alt="">
-                <img src="./public/img/instragram_gallery_img1.jpg" alt="">
-                <img src="./public/img/instragram_gallery_img2.jpg" alt="">
-                <img src="./public/img/instragram_gallery_img1.jpg" alt="">
-                <img src="./public/img/instragram_gallery_img2.jpg" alt="">
+
+            <div class=" insta bg-success flex-wrap  align-items-center "style="width: 80%; height: 200px;">
+              
+                
+               <a href=""><img src="./public/img/instragram_gallery_img1.jpg" alt="" ></a>
+                <a href=""><img src="./public/img/instragram_gallery_img2.jpg" alt=""></a>
+                <a href=""><img src="./public/img/instragram_gallery_img1.jpg" alt=""></a>
+                <a href=""><img src="./public/img/instragram_gallery_img2.jpg" alt=""></a>
+                <a href=""><img src="./public/img/instragram_gallery_img1.jpg" alt=""></a>
+                <a href=""><img src="./public/img/instragram_gallery_img2.jpg" alt=""></a>
+                <a href=""><img src="./public/img/instragram_gallery_img1.jpg" alt=""></a>
+                <a href=""><img src="./public/img/instragram_gallery_img2.jpg" alt=""></a>
                 
 
             </div>
@@ -1054,13 +1057,17 @@
 
 
 
-        <div class="popu text-light" style="height: 200px;">
+        <div class=" col-4 popu text-light bg-success" style="height: 280px;">
             <h3>POPULAR TAGS</h3>
-            <div class="d-inline-block">
-                <button type="button" class="btn btn-danger">Restaurant</button>
-                <button type="button" class="btn btn-danger">Responsive Design</button>
-                <button type="button" class="btn btn-danger">Hotel</button>
-                <button type="button" class="btn btn-danger">Blog section</button>
+            <div class=" d-inline-block bg-warning" style="width: 80%; height: 200px;">
+                <button type="button" class="btn btn-danger border-light  badge-pill btn-sm">Restaurant</button>
+                <button type="button" class="btn btn-danger border-light badge-pill btn-sm">Responsive Design</button>
+                <button type="button" class="btn btn-danger border-light badge-pill btn-sm">Hotel</button>
+                <button type="button" class="btn btn-danger border-light badge-pill btn-sm"btn-sm>Blog section</button>
+                <button type="button" class="btn btn-danger border-light  badge-pill btn-sm">SEO</button>
+                <button type="button" class="btn btn-danger border-light  badge-pill btn-sm">Cuisine</button>
+                <button type="button" class="btn btn-danger border-light  badge-pill btn-sm">Graphic</button>
+                <button type="button" class="btn btn-danger border-light  badge-pill btn-sm">Food</button>
 
 
             </div>
@@ -1069,17 +1076,13 @@
 
 
 
-
-
-
-
-
-
-
-
-
     </footer>
 
+    <div class=" bg-danger d-flex justify-content-center align-items-center text-light" style="height: 100px;">
+        
+        <p> <i class="far fa-copyright"></i>Copyright by Mustafa Karanfil</p>
+
+    </div>
 
 
 

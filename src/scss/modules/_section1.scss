@@ -6,6 +6,7 @@
        border: 1px solid gray;
        background-color: white;
        
+       
        }
 
 
@@ -38,13 +39,16 @@
  }
 .menuList>.navMenu>.nav>.nav-link:hover{
     background-color: transparent;
-    color: $red;
+    color: yellow;
     width: 80%;
     border-right: solid 5px $red;
 }
 
 .menu{
     .card{
+        border: none;
+        text-decoration: none;
+        list-style: none;
         border-bottom: dotted black 1px;
         
         .imgMenu{

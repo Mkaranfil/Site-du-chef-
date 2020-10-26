@@ -15903,12 +15903,15 @@ a.text-dark:hover, a.text-dark:focus {
 
 .menuList > .navMenu > .nav > .nav-link:hover {
   background-color: transparent;
-  color: #C53540;
+  color: yellow;
   width: 80%;
   border-right: solid 5px #C53540;
 }
 
 .menu .card {
+  border: none;
+  text-decoration: none;
+  list-style: none;
   border-bottom: dotted black 1px;
 }
 
@@ -15983,7 +15986,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .salade {
   flex: 1;
-  border: 3px solid gray;
+  border: 4px solid whitesmoke;
   border-radius: 20%;
   background-image: url("../../public/img/blog_img1.jpg");
   background-size: cover;
@@ -15991,7 +15994,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .poulet {
   flex: 1;
-  border: 3px solid gray;
+  border: 4px solid whitesmoke;
   border-radius: 20%;
   background-image: url("../../public/img/blog_img2.jpg");
   background-size: cover;
@@ -16072,18 +16075,6 @@ a.text-dark:hover, a.text-dark:focus {
 footer {
   background-image: url("../../public/img/footer_background.jpg");
   background-position: cover;
-}
-
-.about {
-  flex: 1;
-}
-
-.insta {
-  flex: 1;
-}
-
-.popu {
-  flex: 1;
 }
 
 .iconFoot > i:hover {
