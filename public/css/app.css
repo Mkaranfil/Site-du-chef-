@@ -16045,6 +16045,25 @@ a.text-dark:hover, a.text-dark:focus {
   color: #C53540;
 }
 
+.section5 {
+  background-image: url("../../public/img/main_bg.jpg");
+}
+
+.lesMedias {
+  border-radius: 8%;
+  color: white;
+}
+
+.lesMedias hr {
+  background-color: white;
+  height: 0px;
+  width: 160px;
+}
+
+.contact h2 {
+  color: black;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   header .navComplet {
     display: flex;
