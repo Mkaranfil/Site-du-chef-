@@ -6129,6 +6129,16 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+h2 {
+  font-size: 40px;
+  font-family: "courgette";
+}
+
+h2 span {
+  font-size: 50px;
+  color: #C53540;
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -15851,6 +15861,76 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #2f2e2f;
   height: 12px;
   width: 100%;
+}
+
+#section1 {
+  background-image: url("../../public/img/main_bg.jpg");
+}
+
+#section1 .carte {
+  border: 2px solid black;
+  background-color: white;
+}
+
+#section1 .nav-link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  list-style: none;
+  font-family: "courgette";
+  color: black;
+  font-size: 20px;
+  margin: 10px 30px 10px 20px;
+  padding: 10px;
+}
+
+#section1 .nav-link a {
+  font-family: "courgette";
+  color: black;
+}
+
+#section1 .nav-link i {
+  color: rgba(128, 128, 128, 0.685);
+}
+
+.menuList > .navMenu > .nav > .nav-link:hover {
+  background-color: transparent;
+  color: #C53540;
+  width: 80%;
+  border-right: solid 5px #C53540;
+}
+
+.menu .card {
+  border-bottom: dotted black 1px;
+}
+
+.menu .card .imgMenu {
+  flex: 1;
+}
+
+.menu .card .imgMenu img {
+  border-radius: 100%;
+  border: 5px #e0dddd solid;
+}
+
+.menu .card .card-body {
+  flex: 3;
+}
+
+.menu .card .card-body p {
+  font-size: 12px;
+}
+
+.menu .card .card-body h5 {
+  font-size: 15px;
+}
+
+.menu .card .prix {
+  flex: 1;
+}
+
+.menu .card .prix p {
+  background-color: #e0dddd;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
