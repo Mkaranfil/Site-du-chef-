@@ -15933,6 +15933,28 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #e0dddd;
 }
 
+#chef {
+  background-image: url("../../public/img/team_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#chef .chef .card {
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  background-color: transparent;
+}
+
+#chef .chef .card .card-body {
+  border-top: solid 2px white;
+  padding: 0px 30px 5px 30px;
+}
+
+#chef .ourChef h2 {
+  color: white;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   header .navComplet {
     display: flex;

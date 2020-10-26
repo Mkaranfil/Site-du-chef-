@@ -1,0 +1,31 @@
+
+
+#chef{
+    background-image: url('../../public/img/team_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+        .chef{
+            .card{
+                border: none;
+                text-decoration: none;
+                list-style: none;
+                background-color: transparent;
+                .card-body{
+                    border-top: solid 2px white;
+                    padding: 0px 30px 5px 30px ;
+                }
+            }
+        }
+        .ourChef{
+            h2{
+                color: white;
+            }
+        }
+
+
+
+
+
+}
