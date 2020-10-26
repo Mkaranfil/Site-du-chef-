@@ -1,0 +1,27 @@
+
+
+.decoration{
+    background-image: url('../../public/img/footer_bottom_decoration_img.png');
+    background-color: black;
+    ;
+}
+
+footer{
+    background-image: url('../../public/img/footer_background.jpg');
+    background-position: cover;
+}
+
+.about{
+    flex: 1;
+}
+
+.insta{
+    flex: 1;
+}
+
+.popu{
+    flex: 1;
+}
+.iconFoot>i:hover{
+    color: $red;
+}
