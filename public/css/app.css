@@ -6139,6 +6139,14 @@ h2 span {
   color: #C53540;
 }
 
+.maisonForm {
+  background-image: url("../../public/img/book_table_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid 1px;
+  border-radius: 3%;
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -15868,7 +15876,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #section1 .carte {
-  border: 2px solid black;
+  border: 1px solid gray;
   background-color: white;
 }
 
@@ -15953,6 +15961,56 @@ a.text-dark:hover, a.text-dark:focus {
 
 #chef .ourChef h2 {
   color: white;
+}
+
+#section3 {
+  background-image: url("../../public/img/main_bg.jpg");
+}
+
+#section3 .carte {
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.textform {
+  font-size: 22px;
+}
+
+.textform span {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.salade {
+  flex: 1;
+  border: 3px solid gray;
+  border-radius: 20%;
+  background-image: url("../../public/img/blog_img1.jpg");
+  background-size: cover;
+}
+
+.poulet {
+  flex: 1;
+  border: 3px solid gray;
+  border-radius: 20%;
+  background-image: url("../../public/img/blog_img2.jpg");
+  background-size: cover;
+}
+
+.surTexte span {
+  font-size: 30px;
+}
+
+.textSalade {
+  z-index: 1;
+  margin-bottom: 80px;
+  position: absolute;
+  margin-top: 300px;
+}
+
+.april {
+  z-index: 2;
+  position: relative;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {

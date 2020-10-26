@@ -1,0 +1,55 @@
+
+
+#section3{
+    background-image: url('../../public/img/main_bg.jpg');
+   .carte{
+       border: 1px solid gray;
+       background-color: white;
+       
+       }
+}
+
+.textform{
+    font-size: 22px;
+    span{
+        font-weight: bold;
+        font-size: 30px;
+    }
+}
+
+.salade{
+    flex: 1;
+    border: 3px solid gray;
+    border-radius: 20%;
+    background-image: url('../../public/img/blog_img1.jpg');
+    background-size: cover;
+    
+}
+
+.poulet{
+    flex: 1;
+    border: 3px solid gray;
+    border-radius: 20%;
+    background-image: url('../../public/img/blog_img2.jpg');
+    background-size: cover;
+    
+}
+
+.surTexte{
+    span{
+        font-size: 30px;
+    }
+}
+
+.textSalade{
+    z-index: 1;
+    
+    margin-bottom: 80px;
+    position: absolute;
+    margin-top: 300px;
+}
+
+.april{
+    z-index: 2;
+    position: relative;
+}
